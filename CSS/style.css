@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    font-size: 50px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(90, 231, 102);
+}
+
+
+.menu li{
+    Float: left;
+}
+
+.menu li a{
+    display: block;
+    color: rgb(185, 101, 211);
+    text-align: center;
+    padding: 22px 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.menu li a:hover {
+    background-color: blue;
+}
