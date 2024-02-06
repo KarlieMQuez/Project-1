@@ -9,6 +9,11 @@
     src: url("../Media/Fonts/SomethingFishy.ttf");
 }
 
+@font-face{
+    font-family: comic;
+    src:url("../Media/Fonts/SnackerComic.ttf")
+}
+
 body{
     background-color: aquamarine;
     cursor: url('../Media/Images/Dolphin.png'),auto;
@@ -93,6 +98,7 @@ h1{
     margin:0px 180px;
     background-color: rgb(127, 214, 255);
     padding:20px 180px;
+    
 }
 
 .b1{
@@ -104,8 +110,8 @@ h1{
     text-align: center;
     text-decoration: none;
     display:inline-block;
-    font-size:20px;
-    font-family: 'Lucida Sans';
+    font-size:30px;
+    font-family: 'comic';
     padding:5px 5px;
     width: 150px;
     height: 100px;
@@ -124,8 +130,8 @@ h1{
     text-align: center;
     text-decoration: none;
     display:inline-block;
-    font-size:20px;
-    font-family: 'Lucida Sans';
+    font-size:30px;
+    font-family: 'comic';
     padding:5px 5px;
     width: 150px;
     height: 100px;
@@ -144,8 +150,8 @@ h1{
     text-align: center;
     text-decoration: none;
     display:inline-block;
-    font-size:20px;
-    font-family: 'Lucida Sans';
+    font-size:30px;
+    font-family: 'comic';
     padding:5px 5px;
     width: 150px;
     height: 100px;
@@ -164,8 +170,8 @@ h1{
     text-align: center;
     text-decoration: none;
     display:inline-block;
-    font-size:20px;
-    font-family: 'Lucida Sans';
+    font-size:30px;
+    font-family: 'comic';
     padding:5px 5px;
     width: 150px;
     height: 100px;
@@ -184,8 +190,8 @@ h1{
     text-align: center;
     text-decoration: none;
     display:inline-block;
-    font-size:20px;
-    font-family: 'Lucida Sans';
+    font-size:30px;
+    font-family: 'comic';
     padding:5px 5px;
     width: 150px;
     height: 100px;
@@ -215,7 +221,7 @@ button:hover{
     right: 20px;
     bottom: 20px;
     text-align: center;
-    border:3px dashed purple;
+    border:3px groove purple;
  }
 
  .glow {
