@@ -85,7 +85,7 @@ padding-right: 300px;
     text-align:center;
     color:rgb(0, 255, 225);
     font-family: fantasy;
-
+    cursor: url('../Media/Images/Dolphin.png'),auto;
 }
 
 .threestars{
@@ -93,6 +93,9 @@ padding-left: 300px;
 background-color: rgb(78, 10, 194);
 margin-left: 180px;
 margin-right: 180px;
+cursor: url('../Media/Images/Dolphin.png'),auto;
+
+
 }
 .starfish{
     width:10%;
