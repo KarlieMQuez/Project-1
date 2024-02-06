@@ -92,7 +92,7 @@ h1{
 .lessons{
     margin:0px 180px;
     background-color: rgb(127, 214, 255);
-    padding:10px 200px;
+    padding:20px 180px;
 }
 
 .b1{
@@ -156,17 +156,6 @@ h1{
     height:50px;
 }
 
-.collapsible{
-    padding: 5px 5px;
-    display: none;
-    overflow: hidden;
-    background-color: #0bbdae;
-    color: blue;
-    font-size: 28px;
-    width: 120px;
-    height:100px;
-}
-
 .b4{
     border-radius: 20px;
     border:5px solid rgb(243, 0, 239);
@@ -213,8 +202,37 @@ button:hover{
 
 }
 
-.popup{
-
-    margin: 0 180px;
-    background-color: blueviolet;
+#close_pop_up{
+    float:right;
+    font-size: 25px;
 }
+
+#pop_up{
+    background: rgb(31, 255, 87);
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    border:3px dashed purple;
+ }
+
+ .glow {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+

@@ -29,102 +29,54 @@
     </div>
 
     <div class="lessons">
-                <button type="button" class="b1">
-                    Lesson
-                    <img class = "lesson1" src="Media/Images/shell1.png">
-                    </button>
-                     <div class="collapsible">
-                        <p>
-                            Lesson Complete!
-                        </p>
-                    </div>
-               
+        <button class="b1">
+             Lesson
+            <img class = "lesson1" src="Media/Images/shell1.png">
+        </button>
              
-                 <button type="button" class="b2">
-                 Lesson 
-                 <img class = "lesson2" src="Media/Images/shell2.png">
-                   </button>  
-
-                 <div class="collapsible">
-                         <p>Lesson Complete!</p>
-                    </div>
+         <button class="b2">
+             Lesson 
+             <img class = "lesson2" src="Media/Images/shell2.png">
+          </button>  
                 
-                 <button type="button" class="b3">
-                 Lesson
-                 <img class = "lesson3" src="Media/Images/shell3.png">
-                  </button>  
-
-                 <div class="collapsible">
-                    <p>
-                        Lesson Complete!
-                    </p>
-                </div>
+         <button class="b3">
+             Lesson
+             <img class = "lesson3" src="Media/Images/shell3.png">
+        </button>  
                  
-                 <button type="button" class="b4">
-                 Lesson 
-                 <img class = "lesson4" src="Media/Images/shell4.png">
-                 </button>
+        <button class="b4">
+            Lesson 
+             <img class = "lesson4" src="Media/Images/shell4.png">
+        </button>
                 
-
-                 <button type="button" class="b5">
-                   Lesson
-                   <img class = "lesson5" src="Media/Images/shell5.png">
-                 </button>
-
-                 <script>
-                    var coll = document.getElementsByClassName("b1");
-                    var i;
-                    
-                    for (i = 0; i < coll.length; i++) {
-                      coll[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var content = this.nextElementSibling;
-                        if (content.style.display === "block") {
-                          content.style.display = "none";
-                        } else {
-                          content.style.display = "block";
-                        }
-                      });
-                    }
-                    var coll = document.getElementsByClassName("b2")
-                    var i;
-                    
-                    for (i = 0; i < coll.length; i++) {
-                      coll[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var content = this.nextElementSibling;
-                        if (content.style.display === "block") {
-                          content.style.display = "none";
-                        } else {
-                          content.style.display = "block";
-                        }
-                      });
-                    }
-                    var coll = document.getElementsByClassName("b3")
-                    var i;
-                    
-                    for (i = 0; i < coll.length; i++) {
-                      coll[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var content = this.nextElementSibling;
-                        if (content.style.display === "block") {
-                          content.style.display = "none";
-                        } else {
-                          content.style.display = "block";
-                        }
-                      });
-                    }
-                    </script>
-
-
+         <button class="b5">
+             Lesson
+              <img class = "lesson5" src="Media/Images/shell5.png">
+         </button>
 
     </div>
+<br>
+   
 
-    <div class="popup">
-        <p> Want to dive in deep and catch a great star? Click
-            <a href="HTML/dive1.html"> here! </a>
-        </p>
+<div id="pop_up">
+    <div id="close_pop_up">[close]</div>
+    <div class="glow">
+        <br>
+        Want a new star?
+        <br>
+        Dive in 
+        <a href="HTML/dive1.html">here!</a>
     </div>
+        
+    </div>      
+
+    <script>
+        const closePopUp = document.getElementById("close_pop_up");
+        closePopUp.addEventListener("click", () =>{
+            document.getElementById("pop_up").style.display = "none";
+        });
+       </script>
+
 
 </body>
 </html>
