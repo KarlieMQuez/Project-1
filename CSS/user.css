@@ -3,16 +3,38 @@
     padding:0;
 }
 
+@font-face {
+    font-family: Fishy;
+    src: url("../Media/Fonts/SomethingFishy.ttf");
+}
+
 body{
     background-color: aquamarine;
+    cursor: url('../Media/Images/Dolphin.png'),auto;
+    background-image: url('../Media/Images/water-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: Fishy;
+    font-size: 80px;
+    color:  rgb(0, 71, 106);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    margin: 0px 180px;
 }
 
 .menu ul{
     list-style-type: none;
     overflow: hidden;
     background-color: rgb(23, 214, 198);
+    border:4px solid rgb(0, 183, 255);
 }
-
 
 .menu li{
     Float: left;
@@ -20,13 +42,75 @@ body{
 
 .menu li a{
     display: block;
-    color: rgb(193, 59, 234);
+    color: rgb(7, 99, 135);
     text-align: center;
-    padding: 22px 10px;
+    padding: 22px 50px;
     text-decoration: none;
     font-size: 30px;
 }
 
 .menu li a:hover {
-    background-color: rgb(63, 144, 211)               ;
+    background-color: rgb(15, 31, 120);
+    color:aqua;
+    cursor: url('../Media/Images/Dolphin.png'),auto;
+}
+
+.user{
+display: inline;
+border-radius: 50%;
+width: 300px;
+margin-left: 250px;
+margin-top: 50px;
+margin-bottom: 50px;
+border: 9px solid rgb(5, 164, 42);
+}
+
+.info{
+float:right;
+padding-top:120px;
+padding-right: 300px;
+}
+
+.kid{
+    color: rgb(8, 127, 44);
+    font-size: 40px;
+    border: 6px solid  rgb(0, 128, 19);
+    font-family:fantasy;
+   padding:20px 60px 20px 60px; 
+   background-color: rgb(24, 223, 230);
+}
+
+.score{
+    font-size: 35px;
+    text-align:center;
+    color:rgb(0, 255, 225);
+    font-family: fantasy;
+
+}
+
+.threestars{
+padding-left: 300px;
+background-color: rgb(78, 10, 194);
+margin-left: 180px;
+margin-right: 180px;
+}
+.starfish{
+    width:10%;
+    padding-left: 20px;
+}
+.starfish2{
+    width:10%;
+    padding-left: 20px;
+}
+.starfish3{
+    width:10%;
+    padding-left: 20px;
+}
+.starfish4{
+    width:10%;
+    padding-left: 20px;
+}
+.starfish5{
+    width:10%;
+    padding-left: 20px;
 }

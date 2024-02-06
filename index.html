@@ -5,20 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1 -  Deep Dive </title>
     <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
+   
     <h1> Deep Dive</h1>
 
-    <img src="Media/Images/User image.jpg" alt="avatar" class="avatar">
+   
+
 
     <nav class="menu">
-        <ul>
+        
+         <ul>
             <li><a href="index.html">Home</a></li>
             
             <li><a href="html/user.html" class="split">User Info</a></li>
+            <img src="Media/Images/User image.jpg" alt="avatar" class="avatar">
         </ul>
     </nav>
     
+    <div class="aquarium">
+        <iframe class="reef " width="400" height="260" src="https://www.youtube.com/embed/d0ftMfQXPVQ?si=LB5AY-etJYhpB7sm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="lessons">
+                <button type="button" class="b1">
+                    Lesson
+                    <img class = "lesson1" src="Media/Images/shell1.png">
+                    </button>
+                     <div class="collapsible">
+                        <p>
+                            Lesson Complete!
+                        </p>
+                    </div>
+               
+             
+                 <button type="button" class="b2">
+                 Lesson 
+                 <img class = "lesson2" src="Media/Images/shell2.png">
+                   </button>  
+
+                 <div class="collapsible">
+                         <p>Lesson Complete!</p>
+                    </div>
+                
+                 <button type="button" class="b3">
+                 Lesson
+                 <img class = "lesson3" src="Media/Images/shell3.png">
+                  </button>  
+
+                 <div class="collapsible">
+                    <p>
+                        Lesson Complete!
+                    </p>
+                </div>
+                 
+                 <button type="button" class="b4">
+                 Lesson 
+                 <img class = "lesson4" src="Media/Images/shell4.png">
+                 </button>
+                
+
+                 <button type="button" class="b5">
+                   Lesson
+                   <img class = "lesson5" src="Media/Images/shell5.png">
+                 </button>
+
+                 <script>
+                    var coll = document.getElementsByClassName("b1");
+                    var i;
+                    
+                    for (i = 0; i < coll.length; i++) {
+                      coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                          content.style.display = "none";
+                        } else {
+                          content.style.display = "block";
+                        }
+                      });
+                    }
+                    var coll = document.getElementsByClassName("b2")
+                    var i;
+                    
+                    for (i = 0; i < coll.length; i++) {
+                      coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                          content.style.display = "none";
+                        } else {
+                          content.style.display = "block";
+                        }
+                      });
+                    }
+                    var coll = document.getElementsByClassName("b3")
+                    var i;
+                    
+                    for (i = 0; i < coll.length; i++) {
+                      coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                          content.style.display = "none";
+                        } else {
+                          content.style.display = "block";
+                        }
+                      });
+                    }
+                    </script>
+
+
+
+    </div>
+
+    <div class="popup">
+        <p> Want to dive in deep and catch a great star? Click
+<a href="HTML/dive1.html"> here! </a>
+        </p>
+    </div>
+
 </body>
 </html>

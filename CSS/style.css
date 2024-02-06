@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    
 }
 
 @font-face {
@@ -10,28 +11,41 @@
 
 body{
     background-color: aquamarine;
+    cursor: url('../Media/Images/Dolphin.png'),auto;
+    background-image: url('../Media/Images/water-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
 .avatar{
-    position: absolute;
     width: 50px;
     height:50px;
     border-radius: 50%;
-    margin-left: 1850px;
-    margin-top: 15px;
+    padding:10px;
 }
 
+img:hover{
+    cursor: url('../Media/Images/Dolphin.png'),auto;
+}
 
 h1{
     font-family: Fishy;
     font-size: 80px;
-    color: blueviolet;
+    color: rgb(0, 71, 106);
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0px 180px 0px 180px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    
+}
+
+.menu{
+    margin:0px 100px;
 }
 
 .menu ul{
+    margin:0px 80px;
     list-style-type: none;
     overflow: hidden;
     background-color: rgb(23, 214, 198);
@@ -39,26 +53,168 @@ h1{
 
 }
 
-
 .menu li{
     float: left;
 }
 
-
-
 .menu li a{
     display: block;
-    color: rgb(185, 101, 211);
+    color:  rgb(7, 99, 135);
     text-align: center;
-    padding: 22px 10px;
     text-decoration: none;
     font-size: 30px;
-}
-
-.menu li a.split{
-    float:right;
+    padding:20px;
 }
 
 .menu li a:hover {
-    background-color: blue               ;
+    background-color:rgb(15, 31, 120);
+    color:aqua;
+    cursor: url('../Media/Images/Dolphin.png'),auto;
+}
+
+
+.aquarium{
+   
+    cursor: url('../Media/Images/Dolphin.png'),auto;
+    margin:0px 180px;
+    background-color:rgb(127, 214, 255);
+    padding-top: 15px;
+ }
+
+.reef{
+    display:block;
+    margin:auto;
+    border: 10px solid blue;
+    cursor: url('../Media/Images/Dolphin.png'),auto;
+  
+}
+
+.lessons{
+    margin:0px 180px;
+    background-color: rgb(127, 214, 255);
+    padding:10px 200px;
+}
+
+.b1{
+    
+    border-radius: 20px;
+    border:5px solid rgb(25, 202, 6);
+    background-color: blue;
+    color: rgb(255, 127, 251);
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:20px;
+    font-family: 'Lucida Sans';
+    padding:5px 5px;
+    width: 150px;
+    height: 100px;
+}
+
+.lesson1{
+    width:50px;
+    height:50px;
+}
+
+.b2{
+    border-radius: 20px;
+    border:5px solid rgb(219, 243, 0);
+    background-color: rgb(94, 18, 235);
+    color: rgb(46, 234, 203);
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:20px;
+    font-family: 'Lucida Sans';
+    padding:5px 5px;
+    width: 150px;
+    height: 100px;
+}
+
+.lesson2{
+    width:50px;
+    height:50px;
+}
+
+.b3{
+    border-radius: 20px;
+    border:5px solid rgb(0, 73, 243);
+    background-color: rgb(0, 255, 42);
+    color: rgb(25, 13, 119);
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:20px;
+    font-family: 'Lucida Sans';
+    padding:5px 5px;
+    width: 150px;
+    height: 100px;
+}
+
+.lesson3{
+    width:50px;
+    height:50px;
+}
+
+.collapsible{
+    padding: 5px 5px;
+    display: none;
+    overflow: hidden;
+    background-color: #0bbdae;
+    color: blue;
+    font-size: 28px;
+    width: 120px;
+    height:100px;
+}
+
+.b4{
+    border-radius: 20px;
+    border:5px solid rgb(243, 0, 239);
+    background-color: rgb(255, 162, 0);
+    color: rgb(127, 10, 143);
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:20px;
+    font-family: 'Lucida Sans';
+    padding:5px 5px;
+    width: 150px;
+    height: 100px;
+}
+
+.lesson4{
+    width:50px;
+    height:50px;
+}
+
+.b5{
+    border-radius: 20px;
+    border:5px solid rgb(109, 0, 243);
+    background-color: rgb(219, 31, 31);
+    color: rgb(230, 227, 45);
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:20px;
+    font-family: 'Lucida Sans';
+    padding:5px 5px;
+    width: 150px;
+    height: 100px;
+}
+
+.lesson5{
+    width:50px;
+    height:50px;
+}
+
+button:hover{
+    background-color: rgb(255, 0, 187);
+    cursor: url('../Media/Images/Dolphin.png'),auto;
+
+}
+
+.popup{
+
+    margin: 0 180px;
+    background-color: blueviolet;
 }
